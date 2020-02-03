@@ -7,7 +7,9 @@
     <meta name="description"
         content="Gnist er en konferanse for utviklere, av utviklere. Gnist 2020 avholdes 22. April 2020.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/gnist.css">
+    <link rel="stylesheet" href="gnist.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="open-previous-talks.js"></script>
 </head>
 
 <body>
@@ -17,7 +19,7 @@
                 Gnist
             </span>
             <span class="date">
-                Trondheim, 22.04.2020
+                22. april 2020, 11:00-16:30
             </span>
 
             <span class="tagline">
@@ -25,7 +27,7 @@
             </span>
 
             <span class="location">
-                Hos CGI Trondheim
+                <a href="#location-info">Hos CGI Trondheim</a>
             </span>
 
             <div class="buttons">
@@ -33,6 +35,48 @@
                     Se fjorårets foredrag
                 </a>
             </div>
+        </div>
+
+        <div class="info" id="program-info">
+            <span class="title">
+                Program
+            </span>
+            <div class="program">
+                <span class="program__entry gnist-green">Program kommer, stay tuned!</span>
+                <!--
+                <span class="program__entry gnist-blue">Første del</span>
+                <span class="program__entry gnist-orange">Andre del</span>
+                <span class="program__entry gnist-green">Tredje del</span>
+                <span class="program__entry gnist-blue">Fjerde del</span>
+                -->
+            </div>
+
+        </div>
+
+        <div class="info" id="location-info">
+            <span class="title">
+                Hvor arrangeres Gnist?
+            </span>
+            <div class="map">
+                <a
+                        href="https://www.google.com/maps/place/Acando+AS/@63.4349228,10.4100443,17z/data=!3m1!4b1!4m5!3m4!1s0x466d31de1cd1ddd9:0x6e1eb8973a77368f!8m2!3d63.4349228!4d10.412233"
+                        target="_blank"
+                ><img src="map.png" alt="Kart til CGI"
+                /></a>
+            </div>
+            <span class="location">
+                CGI Norge <br />
+                Avdeling Trondheim <br />
+                Beddingen 10, 7014 Trondheim <br />
+                <br />
+                5. etg på Solsiden kjøpesenter, inngang ved Mix.
+            </span>
+        </div>
+
+        <div class="footer">
+            <a href="https://www.cgi.com/norway/nb" target="_blank">
+                <img src="cgi_logo.png" alt="CGI Logo">
+            </a>
         </div>
     </div>
 </body>

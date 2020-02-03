@@ -1,1 +1,2 @@
-# mariepauline.github.io
+# gnist-web
+Landingpage for the Gnist conference
