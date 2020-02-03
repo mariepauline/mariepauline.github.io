@@ -27,7 +27,8 @@ body {
 
 .info,
 .form,
-.footer {
+.footer,
+.countdown {
   font-family: "Futura";
   background: #FFFFFF;
   border: 0.5rem solid #000000;
@@ -43,7 +44,8 @@ body {
 @media all and (max-width: 500px) {
   .info,
 .form,
-.footer {
+.footer,
+.countdown {
     padding: 1rem;
     max-width: 18rem;
   }
@@ -292,6 +294,37 @@ a {
 }
 a:visited {
   color: #000;
+}
+
+.countdown {
+  margin-top: 1rem;
+}
+.countdown .next-talk {
+  font-size: 3rem;
+}
+@media all and (max-width: 500px) {
+  .countdown .next-talk {
+    font-size: 1.5rem;
+  }
+}
+.countdown .clock {
+  font-size: 7rem;
+}
+@media all and (max-width: 500px) {
+  .countdown .clock {
+    font-size: 3.5rem;
+  }
+}
+.countdown .title {
+  font-size: 6rem;
+}
+@media all and (max-width: 500px) {
+  .countdown .title {
+    font-size: 5rem;
+  }
+}
+.countdown .start-time {
+  font-size: 4rem;
 }
 
 /*# sourceMappingURL=gnist.css.map */

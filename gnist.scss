@@ -32,7 +32,8 @@ body {
 
 .info,
 .form,
-.footer {
+.footer,
+.countdown {
   font-family: "Futura";
   background: #FFFFFF;
   border: 0.5rem solid #000000;
@@ -301,5 +302,36 @@ a {
 
   &:visited {
     color: #000;
+  }
+}
+
+.countdown {
+  margin-top: 1rem;
+
+  .next-talk {
+    font-size: 3rem;
+
+    @media all and (max-width: 500px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  .clock {
+    font-size: 7rem;
+
+    @media all and (max-width: 500px) {
+      font-size: 3.5rem;
+    }
+  }
+
+  .title {
+    font-size: 6rem;
+
+    @media all and (max-width: 500px) {
+      font-size: 5rem;
+    }
+  }
+  .start-time {
+    font-size: 4rem;
   }
 }
