@@ -39,7 +39,7 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 @media all and (max-width: 500px) {
   .info,
